@@ -1,6 +1,6 @@
 const sortByDescendingFriendCount = (users) => {
 
-const newAraay = users.toSorted(((a, b) => b.friends.length - a.friends.length));
+const newAraay = users.toSorted((a, b) => b.friends.length - a.friends.length);
     return newAraay.map( e => e.friends);
 }
 
